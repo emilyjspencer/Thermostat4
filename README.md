@@ -1,9 +1,12 @@
+```
 Week 5 project to build a simple thermostat.
 
 I test drove the development of the thermostat using the testing framework Jasmine.
 The interactive aspect of the app was created with JavaScript and jQuery.
 
-,,,
+```
+
+```
 As a parent,
 So I can check my thermostat is working,
 I want my thermostat to start at 20 degrees celsius
@@ -28,4 +31,4 @@ As a parent,
 So I can be mindful of the environment,
 I want to ensure that PSM (Power Saving Mode) is on by default
 
-'''
+```
