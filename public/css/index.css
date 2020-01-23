@@ -3,12 +3,10 @@ h1 {
     font-size: 55px;
 }
 
+
 body {
-    background: #4800ff;
-    color: #201e1e;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-   
+    background: linear-gradient(55deg, #ed65f2, #a6e9ea);
+    font-family: 'Times New Roman', serif;
 }
 
 .button {
