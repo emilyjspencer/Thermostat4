@@ -17,29 +17,24 @@
     <script src="src/interface.js"></script>
     <div class="firstPage">
         <section>
-            <div id="current-temp-display">
+            <div id="current-temp-display"></div>
+            <h1>Current temperature in London: <span id="london-current-temperature"></span>°C</h1>
+            <img id="friends" src="public/images/dandelion.jpg">
+            <div class="button-row"></div>
+                        <button id="plus">+</button>
+                        <button id="minus">-</button>
+                        <button id="reset">reset</button>
+                        <button id="powersaving-on">PSM on</button>
+                        <button id="powersaving-off">PSM off</button>
             </div>
-            <h2 class="degrees">
-                Degrees
-            </h2> <section>
-                    <h1>Current temperature in London: <span id="london-current-temperature"></span>°C</h1>
-                  </section>
-            
-                  <section id="selectcityform">
-                        <h1>Current temperature: <span id="current-temperature"> 0</span>°C</h1>
-                        <form id="select-city">
-                          <input id="current-city" align="center" type="text" placeholder="Enter a city"></input>
-                          <input type="submit"></input>
-                        </form>
-                      </section>
-            <p>
-                <button id="plus">+</button>
-                <button id="minus">-</button>
-                <h3><button id="reset">reset</button> power saving mode is <span id="power-saving-status">on</span></h3>
-                <button id="powersaving-on">PSM on</button>
-                <button id="powersaving-off">PSM off</button>
-            </p>
-        </section>
+            <section id="selectcityform">
+            <h1>Current temperature: <span id="current-temperature"> 0</span>°C</h1>
+            <form id="select-city">
+                <input id="current-city" align="center" type="text" placeholder="Enter a city"></input>
+                <input type="submit" id="submit"></input>
+            </form>
+            </section>
+      
       
 </body>
 
