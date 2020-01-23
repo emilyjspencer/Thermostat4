@@ -1,24 +1,4 @@
 
-html,
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outliner: 0;
-}
-
-header,
-footer,
-nav,
-article,
-aside,
-ul,
-li {
-
-    display: block;
-}
-
 h1 {
     font-size: 55px;
 }
@@ -29,197 +9,6 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 14px;
    
-}
-
-
-
-#toggle {
-    display: none;
-    color: #fff;
-    cursor: pointer;
-    padding: 10px 10px 10px 20px;
-}
-
-.mainNav {
-    height: auto;
-    background-color: rgba(19, 10, 65, 0.5);
-    display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    width: 100%;
-    flex: 5 1 0;
-    -webkit-flex: 5 1 0;
-}
-
-.logoParent {
-    flex: 1 1 0;
-    -webkit-flex: 1 1 0;
-    -ms-flex: 1 1 100px;
-    color: #ff6a00;
-    text-decoration: none;
-    position: relative;
-    top: 13px
-}
-
-.logoParent a {
-    /*aligns text in top to bottom
-        align-items: bottom;
-        -webkit-align-items: bottom;
-        -ms-flex-align: bottom;*/
-}
-
-.menu {
-    font-size: 14px;
-    color: whitesmoke;
-    display: inline;
-    display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    -ms-flex: 5 1 100px;
-    /*aligns text in top to bottom*/
-    align-items: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-}
-
-.navHead {
-    color: #fff;
-    padding: 8px 20px;
-    /*this places spACE FROM THE CONTEXT OF TEXT TO IT'S BORDER*/
-}
-
-
-/*!!!! these need to be in order*/
-
-.menu a:link {
-    text-decoration: none;
-}
-
-.menu a:visited {
-    color: #fff;
-}
-
-.menu a:hover {
-    color: #ff6a00;
-    text-decoration: underline;
-}
-
-.menu a:active {
-    color: #ff6a00;
-}
-
-.menu li {
-    border-right: 1px solid darkgrey;
-    line-height: 10px
-}
-
-.menu li:last-child {
-    /*don't want outside borders to right of last items where there is a gap*/
-    border-right: none
-}
-
-.menu li:last-child {
-    /*!!!!!!pushes last item of the menu over to the right-hand side 
-                              - need to use last li as the class doesn't work!*/
-    margin-left: auto;
-}
-
-
-/************************************************/
-
-
-/***************  First Page Section ************/
-
-
-/************************************************/
-
-.firstPage {
-    background-image: url("../images/chain.jpg");
-    /*opacity: 0.8;*/
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top center;
-    min-height: 600px;
-    width: 100%;
-    /* lt ie8 */
-    -ms-background-position-x: center;
-    -ms-background-position-y: bottom;
-    background-position: center bottom;
-    /* scale bg image proportionately */
-    background-size: cover;
-    /* ie8 workaround - http://louisremi.github.io/background-size-polyfill/ */
-    -ms-behavior: url(/backgroundsize.min.htc);
-    /* prevent scaling past src width (or not) */
-    /* max-width: 1200px; */
-}
-
-.tagLine {
-    color: white;
-    /*opacity: 1;*/
-    font-family: Roboto, sans-serif;
-    font-size: 55px;
-    text-align: center;
-    padding: 100px 20px 0px 10px;
-}
-
-.tagLineDes {
-    color: white;
-    font-family: Roboto, sans-serif;
-    text-align: center;
-    font-size: 25px;
-    padding: 20px 20px 0px 20px;
-}
-
-.iconBoxes {
-    width: 80%;
-    margin: 0 auto;
-    /*centre*/
-    padding-top: 50px;
-    height: auto;
-    display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    color: antiquewhite;
-}
-
-.trust,
-.transparency,
-.traceability {
-    background-color: rgba(0, 148, 255, 0.1);
-    flex: 1 1 0;
-    -webkit-flex: 1 1 0;
-    -ms-flex: 1 1 100px;
-    padding: 30px;
-    /*add space from content to border*/
-    min-height: 100px;
-    border: 2px ridge grey;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    transition: all 1s;
-}
-
-.trust:hover,
-.transparency:hover,
-.traceability:hover {
-    background-color: rgba(0, 148, 255, 1);
-    flex: 1 1 0;
-    -webkit-flex: 1 1 0;
-    -ms-flex: 1 1 100px;
-    padding: 30px;
-    /*add space from content to border*/
-    min-height: 100px;
-    border: 2px ridge grey;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    transition: all 1s;
-}
-
-.boxText {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    color: darkred;
 }
 
 .button {
@@ -529,4 +318,13 @@ h3 {
 
 .high {
     color: red;
+}
+
+h1{
+    text-align: center;
+}
+
+#select-city-form {
+    text-align: center;
+    
 }
