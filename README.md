@@ -39,4 +39,8 @@ As a curious individual,
 So I can check the current temperature in cities around the world,
 I would like to be able to enter a city and see the city's current temperature displayed
 
+As a fan of Belle and Boo,
+So I can feel a sense of nostalgia when I look at my thermostat,
+I would like to be able to see a picture of Belle and Boo on the thermostat 
+
 ```
