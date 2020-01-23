@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
-<head>
+<head>  
+    
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thermostat</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    //<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="public/css/index.css" />
     <!--<script src="js/jquery-3.3.1.min.js"></script>
     <script src="src/main.js"></script> -->
 </head>
@@ -22,19 +24,23 @@
         <section>
             <!--main body of text page 1-->
             <div id="current-temp-display">
+
                 <!-- getCurrentTemp goes here -->
                 <!---INSERT CURRENT TEMP JS-->
             </div>
             <h2 class="tagLineDes">
                 Degrees
-            </h2>
+            </h2> <section>
+                    <h1>Current temperature: <span id="current-temperature"></span></h1>
+                  </section>
+            
             <p>
                 <button id="plus">+</button>
                 <button id="minus">-</button>
                 <h3><button id="reset">reset</button> power saving mode is <span id="power-saving-status">on</span></h3>
                 <button id="powersaving-on">PSM on</button>
                 <button id="powersaving-off">PSM off</button>
-                <button class="low"></button>
+                <!--<button class="low"></button>-->
             </p>
         </section>
         <h1 class="tagLine">
@@ -43,4 +49,7 @@
         <h1 class="tagLine">
             ON/OFF
         </h1>
+       
+        
 </body>
+
