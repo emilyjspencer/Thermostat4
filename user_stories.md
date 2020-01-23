@@ -23,3 +23,11 @@ As a parent,
 So I can be mindful of the environment,
 I want to ensure that PSM (Power Saving Mode) is on by default
 
+As a parent,
+So I can check the current temperature in London,
+I would like to see the current temperature displayed
+
+As a curious individual,
+So I can check the current temperature in cities around the world,
+I would like to be able to enter a city and see the city's current temperature displayed
+
