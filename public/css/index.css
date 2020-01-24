@@ -25,7 +25,6 @@ body {
 }
 
 
-
 h3 {
     text-align: center;
     font-size: 30px;
@@ -56,8 +55,42 @@ h3 {
     text-align: center;
     margin: auto;
     color: white;
-    font-size: 90px;
+    font-size: 170px;
     text-align: center;
+    position: absolute;
+    top: 10px;
+    height: 16px;
+    width: 16px;
+    float: right;
+  
+    animation: glitter 1s linear 0s infinite normal;
+    -webkit-animation: glitter 2s linear 0s infinite normal;
+    -moz-animation: glitter 3s linear 0s infinite normal;
+    -ms-animation: glitter 5s linear 0s infinite normal;
+    -o-animation: glitter 2s linear 0s infinite normal;
+  }
+  
+  @keyframes glitter {
+    0% {
+      -webkit-transform: scale(1.0);
+      opacity: 1;
+    }
+    25% {
+      -webkit-transform: scale(0.5);
+      opacity: 0;
+    }
+    50% {
+      -webkit-transform: scale(1.0);
+      opacity: 1;
+    }
+    75% {
+      -webkit-transform: scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1.0);
+      opacity: 1;
+    }
 }
 
 #plus {
@@ -216,3 +249,7 @@ h1{
   #current-temperature {
       font-size: 70px;
   }
+
+ 
+  
+  
