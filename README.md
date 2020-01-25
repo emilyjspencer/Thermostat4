@@ -1,4 +1,6 @@
 ```
+#Thermostat#
+
 Week 5 project to build a simple thermostat.
 
 I test drove the development of the thermostat using the testing framework Jasmine.
@@ -7,6 +9,9 @@ The interactive aspect of the app was created with JavaScript and jQuery.
 ```
 
 ```
+
+#User Stories#
+
 As a parent,
 So I can check my thermostat is working,
 I want my thermostat to start at 20 degrees celsius
@@ -27,11 +32,11 @@ As a parent,
 So I can monitor my family's energy usage,
 I want the maximum temp to rise to only 25 degrees celsius when PSM (Power Saving Mode) is on
 
-As a parent,
-So I can be mindful of the environment,
+As an environmentally conscious individual,
+So I can try to reduce my family's carbon footprint,
 I want to ensure that PSM (Power Saving Mode) is on by default
 
-As a parent,
+As a curious invidivual,
 So I can check the current temperature in London,
 I would like to see the current temperature displayed
 
@@ -42,5 +47,12 @@ I would like to be able to enter a city and see the city's current temperature d
 As a fan of Belle and Boo,
 So I can feel a sense of nostalgia when I look at my thermostat,
 I would like to be able to see a picture of Belle and Boo on the thermostat 
+
+```
+
+```
+
+
+
 
 ```
