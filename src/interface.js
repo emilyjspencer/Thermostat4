@@ -3,9 +3,7 @@
 $(document).ready(function() {
     var thermostat = new Thermostat();
 
-    
-
-    updateTemperature(); // to see it for the first time 
+    updateTemperature(); 
 
     $("#plus").on("click", function() {
         thermostat.increase();
@@ -13,7 +11,7 @@ $(document).ready(function() {
     });
  
    // $("#current-temp-display").text(thermostat.currentTemperature); // displays the current temperature  
-    $("#minus").on("click", function() { // when we click the minus button - the temperture will decrease and the temperature will be displayed 
+    $("#minus").on("click", function() { 
         thermostat.decrease();
         updateTemperature();
     });
@@ -41,15 +39,9 @@ $(document).ready(function() {
   
 
     function updateTemperature() {
-        $("#current-temp-display").text(thermostat.currentTemperature); // display current temperature 
+        $("#current-temp-display").text(thermostat.currentTemperature);
         $("#current-temp-display").attr('class', thermostat.currentEnergyUsage());
-        //if (thermostat.currentEnergyUsage() === "low") {
-          //  $("current-temp-display").css("color", "green");
-        //} else if (thermostat.currentEnergyUsage() === "medium") {
-         //   $("current-temp-display").css("color", "black");
-        //} else {
-         //   $("current-temp-display").css("color", "red");
-        //}
+      
     }
 
     $.get('http://api.openweathermap.org/data/2.5/weather?q=London&appid=1f33b6db9528f1c6021bfffc155c4b7f&units=metric', function(data) {
@@ -64,7 +56,7 @@ $(document).ready(function() {
         })
       })
 
-      const app = document.getElementById('app')
+     
 
 const myRand = () => {
   let r = 50
@@ -77,8 +69,7 @@ const myRand = () => {
 for (let i = 0; i < 50; i++) {
   const delay = Math.random() + 's';
   const el = document.createElement('img')
-  el.src            = 'https://dl.dropboxusercontent.com/s/soxcov4m81dx55l/star.svg'
-  el.className      = 'glitter-star'
+  
   el.style.top      = myRand() + '%'
   el.style.left     = myRand() + '%'
   el.style.animationDelay       = delay
