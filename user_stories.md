@@ -19,8 +19,8 @@ As a parent,
 So I can monitor my family's energy usage,
 I want the maximum temp to rise to only 25 degrees celsius when PSM (Power Saving Mode) is on
 
-As a parent,
-So I can be mindful of the environment,
+As an environmentally conscious individual,
+So I can try to reduce my family's carbon footprint,
 I want to ensure that PSM (Power Saving Mode) is on by default
 
 As a parent,
