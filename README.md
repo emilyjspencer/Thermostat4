@@ -1,7 +1,7 @@
 ```
-#Thermostat#
+**Thermostat**
 
-Week 5 project to build a simple thermostat.
+**Week 5 project to build a simple thermostat**
 
 I test drove the development of the thermostat using the testing framework Jasmine.
 The interactive aspect of the app was created with JavaScript and jQuery.
@@ -10,7 +10,7 @@ The interactive aspect of the app was created with JavaScript and jQuery.
 
 ```
 
-#User Stories#
+**User Stories**
 
 As a parent,
 So I can check my thermostat is working,
@@ -52,7 +52,7 @@ I would like to be able to see a picture of Belle and Boo on the thermostat
 
 ```
 
-
+![Thermostat Yakutsk](tempYakutsk.png)
 
 
 ```
