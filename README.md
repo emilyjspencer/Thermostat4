@@ -50,4 +50,4 @@ I would like to be able to see a picture of Belle and Boo on the thermostat
 
 ```
 
-![boo](.public/Images/Screenshots/tempYakutsk.png)
+![boo](tempYakutsk.png)
