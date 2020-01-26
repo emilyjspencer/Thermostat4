@@ -50,10 +50,3 @@ I would like to be able to see a picture of Belle and Boo on the thermostat
 
 ```
 
-```
-<img src="./public/images/Screenshots/tempYakutsk.png"
-     alt="Thermostat showing current temperature in Yakutsk"
-     style="float: left; margin-right: 10px;" />
-
-
-```
