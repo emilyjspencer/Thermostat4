@@ -72,8 +72,10 @@ I would like to be able to see a picture of Belle and Boo on the thermostat
 * HTML/CSS
 * jQuery 
 
-## Testing with
+## Tested with
 
 * Jasmine
+
+## What it looks like 
 
 ![boo](tempYakutsk.png)
