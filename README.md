@@ -5,6 +5,7 @@ Week 5 project to build a simple thermostat
 
 I test drove the development of the thermostat using the testing framework Jasmine.
 The interactive aspect of the app was created with JavaScript and jQuery.
+Ajax requests were made to the openweathermap api to fetch up-to-date weather information for a given city.
 
 
 ## User Stories
